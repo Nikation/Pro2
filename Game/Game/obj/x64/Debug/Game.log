@@ -1,0 +1,128 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.235.147'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  AOI_World.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\AOI_World.cpp(76,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\AOI_World.cpp(76,22): warning :   if (idx >= 0 && idx < m_grids.size())
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\AOI_World.cpp(76,22): warning :                   ~~~~^~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\AOI_World.cpp(86,22): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\AOI_World.cpp(86,22): warning :   if (idx >= 0 && idx < m_grids.size())
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\AOI_World.cpp(86,22): warning :                   ~~~~^~~~~~~~~~~~~~~~
+  GameChannel.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning :   virtual int GetX() { return x; };
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning :                               ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning :   virtual int GetY() { return z; };
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning :                               ^
+  GameMsg.cpp
+  GameProtocol.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning :   virtual int GetX() { return x; };
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning :                               ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning :   virtual int GetY() { return z; };
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning :                               ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameProtocol.cpp(49,24): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameProtocol.cpp(49,24): warning :    if (mLastBuff.size() >= messageLen + 8)
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameProtocol.cpp(49,24): warning :        ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameProtocol.cpp(84,35): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameProtocol.cpp(84,35): warning :    int msgLen = protobufString.size();
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameProtocol.cpp(84,35): warning :                 ~~~~~~~~~~~~~~~~~~~^~
+  GameRole.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning :   virtual int GetX() { return x; };
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(61,30): warning :                               ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning :   virtual int GetY() { return z; };
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.h(63,30): warning :                               ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(27,9): warning : conversion to ‘float’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(27,9): warning :   x = 100+(g_rand_engine()%20);
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(27,9): warning :       ~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(29,9): warning : conversion to ‘float’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(29,9): warning :   z = 100+(g_rand_engine()%20);
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(29,9): warning :       ~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(153,45): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(153,45): warning :   if (mCurrentWorld->GridChanged(this, _x, _z))
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(153,45): warning :                                              ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(153,45): warning : conversion to ‘int’ from ‘float’ may alter its value [-Wfloat-conversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(224,11): warning : conversion to ‘float’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(224,11): warning :    x = 100 + (g_rand_engine() % 20);
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(224,11): warning :        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(226,11): warning : conversion to ‘float’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(226,11): warning :    z = 100 + (g_rand_engine() % 20);
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(226,11): warning :        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(234,10): warning : conversion to ‘float’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(234,10): warning :    x = 10 + g_rand_engine()%120;
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(234,10): warning :        ~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(236,10): warning : conversion to ‘float’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(236,10): warning :    z = 10 + g_rand_engine()%120;
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(236,10): warning :        ~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(331,24): warning : conversion to ‘int’ from ‘std::linear_congruential_engine<long unsigned int, 16807, 0, 2147483647>::result_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(331,24): warning :   int attackValue = 300 + g_rand_engine() % 300;
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(331,24): warning :                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(294,6): warning : unused variable ‘targetPlayerId’ [-Wunused-variable]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(294,6): warning :   int targetPlayerId = contact->targetpid();
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\GameRole.cpp(294,6): warning :       ^~~~~~~~~~~~~~
+  main.cpp
+  msg.pb.cc
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(481,63): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(724,63): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(1191,70): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(1755,63): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(1762,62): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(1783,81): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2323,63): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2330,67): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2351,68): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2633,66): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2640,69): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2647,67): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2654,68): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2923,63): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2930,65): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(2937,68): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(3181,63): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(3188,69): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(3195,65): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\msg.pb.cc(3202,68): warning : conversion to ‘google::protobuf::int32 {aka int}’ from ‘google::protobuf::uint64 {aka long unsigned int}’ may alter its value [-Wconversion]
+  RandomName.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\RandomName.cpp(51,13): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\RandomName.cpp(51,13): warning :    srand(time(nullptr));
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\RandomName.cpp(51,13): warning :          ~~~~^~~~~~~~~
+  utils.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\utils.cpp(156,28): warning : unused variable ‘oUserDataMsg’ [-Wunused-variable]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\utils.cpp(156,28): warning :   GET_REF2DATA(UserDataMsg, oUserDataMsg, _oNextMsg);
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\utils.cpp(156,28): warning :                             ^
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\zinx.h(29,128): message : in definition of macro ‘GET_REF2DATA’
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\zinx.h(29,128): message :  #define GET_REF2DATA(type, ref, orig)  type * pref = dynamic_cast<type *>(&orig); if (nullptr == pref) {return nullptr;} type &ref = dynamic_cast<type&>(orig)
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\zinx.h(29,128): message :                                                                                                                                 ^~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\utils.cpp(167,21): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\utils.cpp(167,21): warning :    for (int i = 0; i < _szData.size(); ++i)
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\utils.cpp(167,21): warning :                    ~~^~~~~~~~~~~~~~~~
+  WorldManager.cpp
+  zinx.cpp
+  ZinxTCP.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTCP.cpp(5,9): warning : deleting object of abstract class type ‘IZinxTcpConnFact’ which has non-virtual destructor will cause undefined behavior [-Wdelete-non-virtual-dtor]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTCP.cpp(5,9): warning :   delete m_ConnFac;
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTCP.cpp(5,9): warning :          ^~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTCP.cpp(140,41): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTCP.cpp(140,41): warning :   if ((0 <= m_DataFd) && (_output.size() == send(m_DataFd,pOut,_output.size(), 0)))
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTCP.cpp(140,41): warning :                           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ZinxTimer.cpp
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(42,16): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(42,16): warning :   int ret = read(m_fd, &over_times, sizeof(over_times));
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(42,16): warning :             ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(115,37): warning : conversion to ‘int’ from ‘std::vector<std::__cxx11::list<WheelNode> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(115,37): warning :   int idx = (m_cur_index + timespec) % m_TimerWheel.size();
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(115,37): warning :             ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(119,23): warning : conversion to ‘int’ from ‘std::vector<std::__cxx11::list<WheelNode> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(119,23): warning :   int round = timespec / m_TimerWheel.size();
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(119,23): warning :               ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(163,35): warning : conversion to ‘int’ from ‘std::vector<std::__cxx11::list<WheelNode> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(163,35): warning :    m_cur_index = (m_cur_index + 1) % m_TimerWheel.size();
+D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\ZinxTimer.cpp(163,35): warning :                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+  Linking objects
+  Game.vcxproj -> D:\Users\Administrator\AppData\Roaming\feiq\Recv Files\Game(11)\Game\bin\x64\Debug\Game.out

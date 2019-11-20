@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(game)
+file(GLOB srcs ./*.cpp *.cc)
+add_executable(${PROJECT_NAME} ${srcs})
+target_link_libraries(${PROJECT_NAME} protobuf pthread)
